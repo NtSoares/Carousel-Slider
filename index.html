@@ -8,7 +8,49 @@
 </head>
 <body>
     
-    <h1>Slider com HTML e CSS</h1>
+    <div class="slider">
+        
+        <div class="slides">
+            <!-- Radio Buttons -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- Fim Radio Buttons -->
+
+            <!-- Slide images -->
+            <div class="slide first">
+                <img src="https://sujeitoprogramador.com/wp-content/uploads/2021/03/thumb-video.png" alt="imagem1" />
+            </div>
+            <div class="slide">
+                <img src="https://sujeitoprogramador.com/wp-content/uploads/2021/09/thumb.png" alt="imagem2" />
+            </div>
+            <div class="slide">
+                <img src="https://sujeitoprogramador.com/wp-content/uploads/2021/06/thumpost.png" alt="imagem3" />
+            </div>
+            <div class="slide">
+                <img src="https://sujeitoprogramador.com/wp-content/uploads/2018/12/qualpc.png" alt="imagem4" />
+            </div>
+            <!-- Fim Slide images -->
+
+            <!-- Navigation auto -->
+            <div class="navigation-auto">
+                <div class="autobtn1"></div>
+                <div class="autobtn2"></div>
+                <div class="autobtn3"></div>
+                <div class="autobtn4"></div>
+            </div>
+
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+    </div>
 
     <script src="script.js"></script>
 </body>
